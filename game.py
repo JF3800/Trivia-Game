@@ -1,3 +1,4 @@
+from leaderboard import save_score, show_leaderboard
 import requests
 import html
 
@@ -35,4 +36,6 @@ def run_game():
             print("incorrect :/")
             print(f"Current Score:{score}")
     print(f"Final Score: {score}")
+    name = input("what is your name?")
+    save_score(name, score)
 run_game()
