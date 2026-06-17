@@ -1,11 +1,17 @@
 # Trivia Game
 
-A command line trivia game built with Python.
+A command-line trivia game that pulls random questions from the web and tracks your score on a local leaderboard.
 
-## How to play
+## Requirements
+- Python 3.10+
+
+## How to Play
+
 1. Clone the repo
 2. Create a virtual environment: `python3 -m venv venv`
-3. Activate it: `source venv/bin/activate`
+3. Activate it:
+   - **Linux/Mac:** `source venv/bin/activate`
+   - **Windows:** `venv\Scripts\activate`
 4. Install dependencies: `pip install requests rich`
 5. Run: `python3 game.py`
 
