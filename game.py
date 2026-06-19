@@ -27,7 +27,7 @@ def run_game():
     questions = fetch_questions()
     score = 0
     for question in questions:
-        console.print(f"\n[bold cyan]{question["question"]}[/bold cyan]")
+        console.print(f"\n[bold cyan]{question['question']}[/bold cyan]")
         for i, choice in enumerate(question["choices"],1):
             print(str(i) + ") " + choice)
         answer = input("Which choice do you pick? Pick the corrosponding number: ")
